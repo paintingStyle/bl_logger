@@ -1,4 +1,6 @@
-part of logger_flutter;
+import 'package:flutter/material.dart';
+import 'log_console.dart';
+import 'shake_detector.dart';
 
 class LogConsoleOnShake extends StatefulWidget {
   final Widget child;

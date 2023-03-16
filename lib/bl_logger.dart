@@ -2,7 +2,9 @@ library bl_logger;
 
 import 'dart:developer' as developer;
 import 'package:logger/logger.dart' as logger;
-import 'package:bl_logger/packages/lib/logger_flutter.dart';
+import 'log_console.dart';
+
+export './log_console_on_shake.dart';
 
 class Logger {
   static final Logger _singleton = Logger._();
